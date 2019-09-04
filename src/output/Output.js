@@ -3,6 +3,7 @@ import React from 'react';
 export default function Result(props) {
     return props.result.map((item, index) => {
         var  res = item.split(',');
+        console.log(res)
         return(
             <div className="result" key={index}>
                 <p>{res[3]}</p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../test.json';
 import { Link } from "react-router-dom";
-
+import './Testing.css';
 const Testing = () => {
     const showTheme = () => {
         return data.map((item, index) => {
@@ -12,7 +12,7 @@ const Testing = () => {
     return(
         <div className="allTest">
             <p>Выберите тему</p>
-            <div>{showTheme()}</div>
+            <div id="tests">{showTheme()}</div>
         </div>
     )
 }

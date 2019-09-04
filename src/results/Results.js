@@ -23,7 +23,11 @@ class Results extends React.Component{
         return(
             <div className="wrapper">
                 <Output result={this.state.result}/>
-                <button><Link to={'/'}>На главную</Link></button>
+                <button style={{
+                    position: "fixed",
+                    bottom: "0px",
+                    right: "0px"
+                }}><Link to={'/'}>На главную</Link></button>
             </div>
         )
     }
