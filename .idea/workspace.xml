@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed73159d-75ea-4aea-9862-0e16ec616974" name="Default Changelist" comment="New commit">
-      <change afterPath="$PROJECT_DIR$/src/testing/Testing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/Output.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/Output.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/result/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/result/Result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/Results.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testing/Testing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/testing/Testing.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,12 +33,21 @@
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -110,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/src/testing/Testing.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -157,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/test/Test.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/output/Output.js" />
-        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/test/Test.js" />
         <option value="$PROJECT_DIR$/src/result/Result.js" />
         <option value="$PROJECT_DIR$/src/results/Results.js" />
@@ -167,10 +162,11 @@
         <option value="$PROJECT_DIR$/src/testing/Testing.js" />
         <option value="$PROJECT_DIR$/src/testing/Testing.css" />
         <option value="$PROJECT_DIR$/src/test.json" />
+        <option value="$PROJECT_DIR$/src/index.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="877" />
@@ -197,6 +193,12 @@
               <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
@@ -279,17 +281,18 @@
       <workItem from="1565348992294" duration="745000" />
       <workItem from="1565349767215" duration="2627000" />
       <workItem from="1566082821161" duration="611000" />
-      <workItem from="1567579764778" duration="8277000" />
+      <workItem from="1567579764778" duration="9064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51667000" />
+    <option name="totallyTimeSpent" value="52454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="814" height="877" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4880478" weight="0.49204245" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4880478" visible="true" weight="0.23843187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.51195216" side_tool="true" weight="0.49204245" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -304,7 +307,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3266129" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32258064" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3187251" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3293011" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -395,13 +398,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/spectre.css/dist/spectre.min.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -515,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -542,7 +531,7 @@
     <entry file="file://$PROJECT_DIR$/src/testing/Testing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -592,6 +581,20 @@
             <element signature="e#310649#315980#0" />
             <element signature="e#305400#318507#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
         </state>
       </provider>
     </entry>

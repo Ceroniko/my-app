@@ -28,7 +28,7 @@ body {
 
 @media (max-width: 320px) {
   body{
-    background: url(".\img\background.jpg") no-repeat;
+    background: url(".\img\background3.jpg") no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
   }
