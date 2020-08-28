@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+}
+
 html {
   height: 100%;
 }
@@ -7,29 +14,104 @@ a{
   color: black;
 }
 
+a:visited{
+  color:black;
+}
+
 button{
   border-radius: 20px;
 
 }
 
 body {
-  min-height: 100%;
-  /*overflow: hidden;*/
+  min-height: 97%;
   margin: 0;
 }
 
-@media (max-width: 1920px) {
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+@media (max-width: 575px) {
   body{
-    background: url(".\img\background2.jpg") no-repeat;
+    background-image: linear-gradient(to top left, rgb(232, 234, 252), rgb(232, 230, 248), rgb(232, 226, 245), rgb(231, 222, 241), rgb(231, 218, 238), rgb(231, 214, 234), rgb(231, 209, 231), rgb(231, 205, 227), rgb(231, 201, 224), rgb(230, 197, 220), rgb(230, 193, 217), rgb(230, 189, 213));
     background-size: 100% 100%;
     background-attachment: fixed;
   }
+
+  h3{
+    font-size:16px;
+  }
+
+  p{
+    font-size:14px;
+  }
 }
 
-@media (max-width: 320px) {
+/* Стили для маленьких экранов (дисплей шириной от 576 пикселей до 767 пикселей) */
+@media (min-width: 576px) and (max-width: 767px) {
   body{
-    background: url(".\img\background3.jpg") no-repeat;
+    background-image: linear-gradient(to top left, rgb(232, 234, 252), rgb(232, 230, 248), rgb(232, 226, 245), rgb(231, 222, 241), rgb(231, 218, 238), rgb(231, 214, 234), rgb(231, 209, 231), rgb(231, 205, 227), rgb(231, 201, 224), rgb(230, 197, 220), rgb(230, 193, 217), rgb(230, 189, 213));
     background-size: 100% 100%;
     background-attachment: fixed;
+  }
+
+  h3{
+    font-size:16px;
+  }
+
+  p{
+    font-size:14px;
+  }
+}
+
+
+/* Стили для средних экранов (дисплей шириной от 768 пикселей до 991 пикселей) */
+@media (min-width: 768px) and (max-width: 991px) {
+  body{
+    background-image: linear-gradient(to top left, rgb(232, 234, 252), rgb(232, 230, 248), rgb(232, 226, 245), rgb(231, 222, 241), rgb(231, 218, 238), rgb(231, 214, 234), rgb(231, 209, 231), rgb(231, 205, 227), rgb(231, 201, 224), rgb(230, 197, 220), rgb(230, 193, 217), rgb(230, 189, 213));
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+  h3{
+    font-size:18px;
+  }
+
+  p{
+    font-size:16px;
+  }
+}
+
+
+/* Стили для больших экранов (дисплей шириной от 992 пикселей до 1199 пикселей) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body{
+    background-image: linear-gradient(to top left, rgb(232, 234, 252), rgb(232, 230, 248), rgb(232, 226, 245), rgb(231, 222, 241), rgb(231, 218, 238), rgb(231, 214, 234), rgb(231, 209, 231), rgb(231, 205, 227), rgb(231, 201, 224), rgb(230, 197, 220), rgb(230, 193, 217), rgb(230, 189, 213));
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+  h3{
+    font-size:24px;
+  }
+
+  p{
+    font-size:20px;
+  }
+}
+
+
+/* Стили для очень больших экранов (дисплей минимум 1200 пикселей) */
+@media (min-width: 1200px) {
+  body{
+    background-image: linear-gradient(to top left, rgb(232, 234, 252), rgb(232, 230, 248), rgb(232, 226, 245), rgb(231, 222, 241), rgb(231, 218, 238), rgb(231, 214, 234), rgb(231, 209, 231), rgb(231, 205, 227), rgb(231, 201, 224), rgb(230, 197, 220), rgb(230, 193, 217), rgb(230, 189, 213));
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+  h3{
+    font-size:22px;
+  }
+
+  p{
+    font-size:20px;
   }
 }

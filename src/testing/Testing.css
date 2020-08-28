@@ -1,4 +1,59 @@
 #tests{
     display: flex;
     flex-direction: column;
+    border: 3px solid #dda0dd;
+    border-radius: 15px;
 }
+
+#tests a:visited {
+    color: black;
+}
+
+#tests a{
+    border-bottom:3px solid #dda0dd;
+    padding: 5px;
+}
+
+#tests a:last-child{
+    border: none;
+}
+
+.allTest h3{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.allTest{
+    margin: 10px;
+    margin-bottom: 37px;
+}
+
+/* Стили для средних экранов (дисплей шириной от 768 пикселей до 991 пикселей) */
+@media (min-width: 768px) and (max-width: 991px) {#tests{
+    background:  #dda0dd;
+    border: 3px solid #ad3aad;
+}
+#tests a{
+    border-bottom:3px solid #ad3aad;
+}}
+
+
+/* Стили для больших экранов (дисплей шириной от 992 пикселей до 1199 пикселей) */
+@media (min-width: 992px) and (max-width: 1199px) {#tests{
+    background:  #dda0dd;
+    border: 3px solid #ad3aad;
+}
+#tests a{
+    border-bottom:3px solid #ad3aad;
+}}
+
+
+/* Стили для очень больших экранов (дисплей минимум 1200 пикселей) */
+@media (min-width: 1200px) {#tests{
+    background:  #dda0dd;
+    border: 3px solid #ad3aad;
+}
+#tests a{
+    border-bottom:3px solid #ad3aad;
+}}

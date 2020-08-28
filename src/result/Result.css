@@ -1,0 +1,75 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result button{
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+.flower::before {
+    content: url("../img/peony.png");
+}
+
+.result p{
+    margin-bottom: 12px;
+}
+
+.result p:first-child{
+    margin-top: 12px;
+}
+
+.result-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #dda0dd;   
+    margin: 3px 3px 24px 3px;
+    padding: 10px; 
+    border-radius: 25px;
+}
+
+.result-wrap > p{
+    border-bottom:3px solid #dda0dd; 
+}
+
+.cong::before{
+    content: url("https://media.giphy.com/media/g9582DNuQppxC/giphy.gif");
+}
+
+.cong::after{
+    content: 
+}
+
+/* Стили для средних экранов (дисплей шириной от 768 пикселей до 991 пикселей) */
+@media (min-width: 768px) and (max-width: 991px) {.result-wrap{
+    background: #dda0dd;    
+
+}
+.result-wrap > p{
+    border-bottom:3px solid #ca3bca; 
+}}
+
+
+/* Стили для больших экранов (дисплей шириной от 992 пикселей до 1199 пикселей) */
+@media (min-width: 992px) and (max-width: 1199px) {.result-wrap{
+    background: #dda0dd;    
+
+}
+.result-wrap > p{
+    border-bottom:3px solid #ca3bca; 
+}}
+
+
+/* Стили для очень больших экранов (дисплей минимум 1200 пикселей) */
+@media (min-width: 1200px) {.result-wrap{
+    background: #dda0dd;    
+
+}
+.result-wrap > p{
+    border-bottom:3px solid #ca3bca; 
+}}

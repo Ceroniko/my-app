@@ -4,6 +4,7 @@ import Home from '../home/Home.js';
 import Testing from '../testing/Testing';
 import App from '../app/App.js';
 import Results from '../results/Results';
+import Booklet from '../booklet/Booklet';
 
 
 const Root = () => (
@@ -14,6 +15,7 @@ const Root = () => (
                     <Route exact path='/testing/:id' component = {App}/>
                     <Route path="/testing" component = {Testing} />
                     <Route path="/results" component = {Results} />
+                    <Route path="/booklet" component = {Booklet} />
                 </Switch>
             </div>
         </Router>

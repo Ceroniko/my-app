@@ -1,7 +1,61 @@
 .style1{
-    background: greenyellow;
+    background: greenyellow !important;
 }
 
 .style2{
-    background: red;
+    background: red !important;
 }
+
+.style3{
+    background: yellow !important;
+}
+
+#all-test{
+    border: 3px solid #dda0dd;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 10px;
+}
+
+#all-test h3{
+    border-bottom: 3px solid #dda0dd;
+    padding-bottom: 9px;
+}
+
+#all-test p {
+    padding: 2px;
+    border: 3px solid #dda0dd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#prog{
+    background-color: #2a9a39;
+}
+
+.bar{
+    margin: 0 auto;
+}
+
+#all-test button a:visited{
+    color: black;
+}
+
+/* Стили для средних экранов (дисплей шириной от 768 пикселей до 991 пикселей) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #all-test p {
+    background: #dda0dd;
+}
+}
+
+
+/* Стили для больших экранов (дисплей шириной от 992 пикселей до 1199 пикселей) */
+@media (min-width: 992px) and (max-width: 1199px) {#all-test p {
+    background: #dda0dd;
+}}
+
+
+/* Стили для очень больших экранов (дисплей минимум 1200 пикселей) */
+@media (min-width: 1200px) {#all-test p {
+    background: #dda0dd;
+}}

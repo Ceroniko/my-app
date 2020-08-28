@@ -1,0 +1,99 @@
+.results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.results p:last-child{
+    height: 20px;
+    border-left: 3px solid #dda0dd;
+    border-right: 3px solid #dda0dd;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.results:nth-last-child(2) p:last-child {
+    border: none;
+    margin: 0;
+}
+
+.results > p:first-child{
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.results:nth-child(1) > p:first-child {
+    margin-top: 24px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {.results > p{
+    color: rgb(255, 255, 255);
+    text-shadow: 
+		-0   -1px 1px #000000,
+		 0   -1px 1px #000000,
+		-0    1px 1px #000000,
+		 0    1px 1px #000000,
+		-1px -0   1px #000000,
+		 1px -0   1px #000000,
+		-1px  0   1px #000000,
+		 1px  0   1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000;
+    }
+}
+
+
+/* Стили для больших экранов (дисплей шириной от 992 пикселей до 1199 пикселей) */
+@media (min-width: 992px) and (max-width: 1199px) {.results > p{
+    color: rgb(255, 255, 255);
+    text-shadow: 
+		-0   -1px 1px #000000,
+		 0   -1px 1px #000000,
+		-0    1px 1px #000000,
+		 0    1px 1px #000000,
+		-1px -0   1px #000000,
+		 1px -0   1px #000000,
+		-1px  0   1px #000000,
+		 1px  0   1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000;
+    }}
+
+
+/* Стили для очень больших экранов (дисплей минимум 1200 пикселей) */
+@media (min-width: 1200px) {.results > p{
+    color: rgb(255, 255, 255);
+    text-shadow: 
+		-0   -1px 1px #000000,
+		 0   -1px 1px #000000,
+		-0    1px 1px #000000,
+		 0    1px 1px #000000,
+		-1px -0   1px #000000,
+		 1px -0   1px #000000,
+		-1px  0   1px #000000,
+		 1px  0   1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000;
+    }}

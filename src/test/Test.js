@@ -35,12 +35,12 @@ class Test extends React.Component{
     }
 
      showAnswers = () => {
-        return this.props.answers.map((item, index) =>  <p key={index} onClick={(elem)=>{this.props.updateData(item)
-            var style = document.getElementsByClassName('style1');
+        return this.props.answers.map((item, index) =>  <p key={index} onClick={(elem)=>{this.props.updateData(item.trim());
+            var style = document.getElementsByClassName('style3');
             for (var i = 0; i < style.length; i++){
-                style[i].classList.remove('style1')
+                style[i].classList.remove('style3')
             }
-            elem.target.setAttribute("class", "style1");
+            elem.target.setAttribute("class", "style3");
             this.setState({
                                     onClick : true,
                                     onConfirm : true,
@@ -55,7 +55,9 @@ class Test extends React.Component{
                 <h3>{this.props.question}</h3>
                 <div>
                     {this.showAnswers()}
-                    { this.state.onClick && !this.state.onConfirm ? <button onClick={() => {
+                    { this.state.onClick && !this.state.onConfirm ? <button style={{
+                    width: "100%"
+                }} className={'greeting-button flower'} onClick={() => {
                         this.props.nextTest()
                         var div = document.getElementById("all-test");
                         var elems = div.getElementsByTagName("p");
@@ -64,20 +66,26 @@ class Test extends React.Component{
                         }
                         var style = document.getElementsByClassName('style1');
                         var style1 = document.getElementsByClassName('style2');
+                        var style2 = document.getElementsByClassName('style3');
                         for (let i = 0; i < style.length; i++){
                             style[i].classList.remove('style1');
                         }
                         for (let i = 0; i < style1.length; i++){
                             style1[i].classList.remove('style2');
                         }
+                        for (let i = 0; i < style2.length; i++){
+                            style2[i].classList.remove('style3');
+                        }
                         this.setState({onClick : false})
                     }}>Следующий вопрос
-                    </button> : this.state.onClick && this.state.onConfirm ? <button onClick={ () => {
-                        var style = document.getElementsByClassName('style1');
+                    </button> : this.state.onClick && this.state.onConfirm ? <button style={{
+                    width: "100%"
+                }} className={'greeting-button flower'} onClick={ () => {
+                        var style = document.getElementsByClassName('style3');
                         for (var i = 0; i < style.length; i++){
                                 if (this.state.userAnswer !== this.props.rightAnswer){
                                         style[i].classList.add('style2');
-                                        style[i].classList.remove('style1');
+                                        style[i].classList.remove('style3');
                                 }
                         }
                         var div = document.getElementById("all-test");
@@ -92,8 +100,12 @@ class Test extends React.Component{
                         this.setState({onConfirm : false})
                     }}> Подтвердить выбор </button> : null}
                 </div>
-                <div className='bar'>
-                    <div id="prog" className="bar-item tooltip" role="progressbar" data-tooltip="50%" aria-valuemin="0" aria-valuemax="100">   </div>
+                <div className='bar' style={{
+                    position: "fixed",
+                    bottom: "0px",
+                    right : "0px"
+                }}>
+                    <div id="prog"  className="bar-item tooltip" role="progressbar" data-tooltip="50%" aria-valuemin="0" aria-valuemax="100" >   </div>
                 </div>
             </div>
         );

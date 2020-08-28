@@ -23,7 +23,6 @@ class App extends React.Component {
     componentDidMount() {
         this.setState({date : new Date()});
         this.setState({progress : (((this.state.index + 1)/this.state.arrayQuestions.length)*100)});
-        console.log(this.props.match)
     }
 
     componentWillMount(){
@@ -57,17 +56,18 @@ class App extends React.Component {
                                 sum : 0,
                                 date : null
                             })
+        this.setState({progress : ((1/this.state.arrayQuestions.length)*100)})
         this.setState({date : new Date()})
     }
 
     nextTest = () => {
         this.setState(prevState => ({
-            arrayAnswer: [...prevState.arrayAnswer, this.state.userAnswer]
+            arrayAnswer: [...prevState.arrayAnswer, this.state.userAnswer.trim()]
         }));
         this.setState(prevState => ({
-            arrayRightAnswer: [...prevState.arrayRightAnswer, data[this.props.match.params.id].questions[this.state.index].rigthAnswer]
+            arrayRightAnswer: [...prevState.arrayRightAnswer, data[this.props.match.params.id].questions[this.state.index].rigthAnswer.trim()]
         }));
-        if (this.state.userAnswer === data[this.props.match.params.id].questions[this.state.index].rigthAnswer) this.setState ({sum : this.state.sum + 1})
+        if (this.state.userAnswer.trim() === data[this.props.match.params.id].questions[this.state.index].rigthAnswer.trim()) this.setState ({sum : this.state.sum + 1});
         this.setState({index : this.state.index + 1});
         this.setState({progress : (((this.state.index + 2)/this.state.arrayQuestions.length)*100)})
     }

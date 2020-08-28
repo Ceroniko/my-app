@@ -1,0 +1,9 @@
+.wrapper{
+    border: 3px solid #dda0dd;
+    border-radius: 20px;
+    margin-bottom: 12%; 
+}
+button > a{
+    display: inline-block;
+    width: 100%;
+}
