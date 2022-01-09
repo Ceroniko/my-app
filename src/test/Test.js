@@ -12,8 +12,8 @@ class Test extends React.Component{
         }
     }
 
-    componentWillMount(){
-         for ( var i = this.props.answers.length-1; i>0; i--) {
+    componentWillMount() {
+         for ( var i = this.props.answers.length - 1; i>0; i--) {
              var t = this.props.answers[i],
                  j = Math.floor(i*Math.random());
              this.props.answers[i] = this.props.answers[j];
